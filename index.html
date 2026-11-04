@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xiangning (Shannon) Li — prospective PhD researcher in human–AI interaction, decision-making, and evidence-grounded AI agents.">
   <title>Xiangning (Shannon) Li | Research</title>
   <style>
     body {
@@ -25,6 +25,7 @@
     }
     a { color: #28659a; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid #28659a; outline-offset: 3px; }
     .subtitle { color: #637083; }
     .tags { color: #56758f; font-size: 14px; }
     .project {
@@ -32,107 +33,134 @@
       padding-left: 16px;
       border-left: 3px solid #d9e5ef;
     }
+    .project p { margin: 8px 0; }
     .links { margin-top: 12px; }
     .links a { margin-right: 16px; }
+    .contact { margin-top: 12px; font-size: 14px; }
+    .contact a { display: inline-block; margin-right: 18px; }
     footer {
       margin-top: 50px;
       font-size: 13px;
       color: #7b8491;
     }
+    @media (max-width: 480px) {
+      body { padding: 30px 20px; }
+      h1 { font-size: 27px; }
+      .contact a { margin-bottom: 5px; }
+    }
   </style>
 </head>
 <body>
 
-  <h1>Xiangning (Shannon) Li</h1>
-  <div class="subtitle">
-    Prospective PhD Student | Fall 2027<br>
-    Human–AI Interaction · Human-Centered AI<br>
-    M.S. Business Analytics, UC Irvine
-  </div>
-
-  <h2>About Me</h2>
-  <p>
-    I am interested in designing and studying AI systems
-    that support professional judgment while preserving
-    human agency and independent capability.
-  </p>
-  <p>
-    My research interests grew from developing DealLens,
-    an evidence-grounded AI decision-support system.
-    I hope to investigate how AI roles shape human judgment,
-    decision authority, and long-term capability, and how
-    adaptive support can strengthen human independence.
-  </p>
-
-  <h2>Research Interests</h2>
-  <p class="tags">
-    Human–AI Collaboration · Professional Judgment ·
-    Decision Authority · Calibrated Reliance ·
-    Adaptive AI Scaffolding
-  </p>
-
-  <h2>Research</h2>
-  <div class="project">
-    <strong>From Assistance to Authority</strong>
-    <p>
-      Calibrating AI Influence for Professional Judgment,
-      Capability Growth, and Independence.
-      A four-study research agenda examining judgment,
-      authority, independent capability, and
-      capability-triggered adaptive scaffolding.
-    </p>
-    <div class="links">
-      <a href="files/whitepaper.pdf" target="_blank">
-        Research White Paper (PDF)
-      </a>
+  <header>
+    <h1>Xiangning (Shannon) Li</h1>
+    <div class="subtitle">
+      Prospective PhD Student | Fall 2027<br>
+      Human–AI Interaction · Human-Centered AI<br>
+      M.S. Business Analytics, UC Irvine
     </div>
-  </div>
-
-  <h2>Featured Project</h2>
-  <div class="project">
-    <strong>DealLens — Evidence-Grounded AI Decision Support</strong>
-    <p>
-      A working research system integrating Salesforce
-      opportunity records and Gong conversations to
-      identify evolving decision risks and provide
-      inspectable evidence and actionable guidance.
-    </p>
-    <p>
-      The predictive layer achieved 82.5% recall of
-      eventual losses by Call 4 and 93.2% by Call 8.
-    </p>
-    <div class="links">
-      <a href="files/deallens.pdf" target="_blank">
-        Manuscript
-      </a>
+    <div class="contact">
+      <a href="mailto:xianl77@uci.edu">Email: xianl77@uci.edu</a>
+      <a href="https://www.linkedin.com/in/shannon-li-2153a2378" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
     </div>
+  </header>
+
+  <main>
+    <h2>About Me</h2>
     <p>
-      A research-oriented version of the implementation
-      is available upon request, subject to data
-      confidentiality restrictions.
+      I am interested in designing and studying AI systems that support
+      professional judgment while preserving human agency and independent capability.
     </p>
-  </div>
+    <p>
+      My research interests grew from developing DealLens, an evidence-grounded
+      AI decision-support system. I am pursuing two connected research directions:
+      understanding how AI assistance shapes human judgment and long-term capability,
+      and building conversational agents that learn from professional expertise and
+      translate evidence into accountable action.
+    </p>
 
-  <h2>Education</h2>
-  <p>
-    <strong>University of California, Irvine</strong><br>
-    M.S. in Business Analytics, 2026
-  </p>
-  <p>
-    <strong>Middlesex University, UK</strong><br>
-    B.A. in Business Management, 2024
-  </p>
+    <h2>Research Interests</h2>
+    <p class="tags">
+      Human–AI Interaction · Professional Judgment · Calibrated Reliance ·
+      Computational Modeling of Decision-Making · Evidence-Grounded AI Agents ·
+      Adaptive AI Scaffolding
+    </p>
 
-  <h2>CV & Contact</h2>
-  <p>
-    <a href="files/CV.pdf" target="_blank">
-      Academic CV (PDF)
-    </a>
-  </p>
+    <h2>Research</h2>
+    <div class="project">
+      <strong>From Assistance to Authority</strong>
+      <p><em>Calibrating AI Influence for Professional Judgment, Capability Growth, and Independence</em></p>
+      <p>
+        A four-study research agenda investigating how AI advice and different AI roles
+        shape professional judgment, epistemic authority, calibrated reliance, and
+        independent capability. The proposed studies examine judgment episodes,
+        role-specific authority formation, longitudinal AI-off assessments, and
+        capability-triggered adaptive scaffolding compared with fixed fading and
+        continuous AI support.
+      </p>
+      <div class="links">
+        <a href="files/whitepaper.pdf" target="_blank" rel="noopener noreferrer">Research White Paper (PDF)</a>
+      </div>
+    </div>
 
-  <footer>
-    Last updated: November 2026
-  </footer>
+    <div class="project">
+      <strong>DealLens 2.0: From Evidence to Agentic Action</strong>
+      <p><em>From Pivotal Evidence to Expert Memory, Reasoning Audits, and Actionable Professional Artifacts</em></p>
+      <p>
+        A four-study research agenda extending DealLens into an evidence-grounded
+        conversational AI agent. It proposes detecting pivotal evidence shifts within
+        conversations, learning reusable expertise through human-approved agent memory,
+        auditing consequential differences between human and AI reasoning, and turning
+        validated judgments into traceable, context-specific professional artifacts
+        under human oversight.
+      </p>
+      <div class="links">
+        <a href="files/deallens2_whitepaper.pdf" target="_blank" rel="noopener noreferrer">Research White Paper (PDF)</a>
+      </div>
+    </div>
+
+    <h2>Featured Project</h2>
+    <div class="project">
+      <strong>DealLens — Evidence-Grounded AI Decision Support</strong>
+      <p>
+        A working research system integrating Salesforce opportunity records and
+        Gong conversations to identify evolving decision risks and provide
+        inspectable evidence and actionable guidance.
+      </p>
+      <p>
+        The predictive layer identified 82.5% of eventual losses by Call 4
+        and 93.2% by Call 8.
+      </p>
+      <div class="links">
+        <a href="files/deallens.pdf" target="_blank" rel="noopener noreferrer">Manuscript (PDF)</a>
+      </div>
+      <p>
+        A research-oriented version of the implementation is available upon request,
+        subject to data confidentiality restrictions.
+      </p>
+    </div>
+
+    <h2>Education</h2>
+    <p>
+      <strong>University of California, Irvine</strong><br>
+      M.S. in Business Analytics, 2026
+    </p>
+    <p>
+      <strong>Middlesex University, UK</strong><br>
+      B.A. in Business Management, 2024
+    </p>
+
+    <h2>CV &amp; Contact</h2>
+    <p>
+      <a href="files/CV.pdf" target="_blank" rel="noopener noreferrer">Academic CV (PDF)</a>
+    </p>
+    <p>
+      <a href="mailto:xianl77@uci.edu">xianl77@uci.edu</a> ·
+      <a href="https://www.linkedin.com/in/shannon-li-2153a2378" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+  </main>
+
+  <footer>Last updated: November 2026</footer>
 
 </body>
 </html>
